@@ -62,6 +62,7 @@ public class ResponseInspectionTest {
                         "url", equalTo("https://httpbin.org/cache/2"));
     }
 
+    // In progress! I have not idea(((
     @Test
     public void test_03_Methods_Cache_Etag() {
         given()
